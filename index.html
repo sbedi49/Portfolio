@@ -20,6 +20,9 @@
             <a href="/" class="logo__link">logo</a>
           </li>
           <li class="navbar__item">
+            <a target="_blank" href="./assets/Resume.pdf" class="navbar__link">Resume</a>
+          </li>
+          <li class="navbar__item">
             <a href="#about" class="navbar__link">About</a>
           </li>
           <li class="navbar__item">
@@ -50,7 +53,7 @@
           new technologies, and try to keep myself updated with current trends.
           My other interests include GIS, and creating beautiful visual maps
           (you can view my separate GIS Portfolio
-          <span class="gis">here</span>). <br /><br />
+          <span>here</span>).<br /><br />
           <br />
           Some of the technologies I have used:
         </p>
@@ -197,21 +200,29 @@
     </section>
 
     <section id="contact" class="contact">
-      <h2>Contact</h2>
-      <div class="form">
-        <form action="">
-          <div class="form__names">
-            <label for="lname">First Name</label>
-            <input placeholder="First Name..." id="fname" type="text">
-          
-          <label for="fname">Last Name</label>
-          <input placeholder="Last Name..." id="lname" type="text">
-          </div>
-  
-        <textarea placeholder="Enter Message.." name="text" id="" cols="50" rows="10"></textarea>
-      </form>
-      </div>
       
+      <div class="wrapper">
+        <h2>Get in Touch.</h2>
+        <form class="form" action="" method="POST">
+          <input autocomplete="off" class="form__input" placeholder="Your Name..." id="name" type="text">
+          <div class="form__message">
+            <textarea class="form__message__textarea" placeholder="Your Message..." name="text" id="message" cols="50" rows="10"></textarea>
+          </div>
+        <button class="form__btn">Send</button>
+      </form>
+    </div>
+      
+    </section>
+
+    <section class="footer">
+      <div class="socials">
+       <a class="socials__icon"  target="_blank" href="http://github.com"><i class="fab fa-github "></i></a> 
+       <a class="socials__icon"  target="_blank" href="http://linkedin.com"><i class="fab fa-linkedin"></i></a> 
+      </div>
+      <div class="copyright">
+        <p>&copy; All Rights Reserved. Sarab Bedi</p>
+      </div>
+      <a href="/" class="scroll-to-top">^</a>
     </section>
 
     <script src="index.js"></script>
