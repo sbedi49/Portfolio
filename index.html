@@ -16,8 +16,8 @@
     <section class="header">
       <nav class="navbar">
         <ul class="navbar__list">
-          <li class="navbar__logo">
-            <a href="/" class="logo__link">logo</a>
+          <li class="navbar__item--logo">
+            <a href="/" class="navbar__logo">SB</a>
           </li>
           <li class="navbar__item">
             <a target="_blank" href="./assets/Resume.pdf" class="navbar__link">Resume</a>
@@ -32,6 +32,25 @@
             <a href="#contact" class="navbar__link">Contact</a>
           </li>
         </ul>
+
+        <!-- Hamburger Menu -->
+        <div id="toggle" class="toggle-wrap">
+          <span class="bar one"></span>
+          <span class="bar two"></span>
+          <span class="bar three"></span>
+        </div>
+        <menu id="active" class="menu active">
+          <nav class="hamburger">
+          <ul class="hamburger__list">
+            <li class="hamburger__item"><a target="_blank" href="./assets/Resume.pdf" class="hamburger__link">Resume</a></li>
+            <li class="hamburger__item"><a href="#about" class="hamburger__link">About</a></li>
+            <li class="hamburger__item"><a href="#projects" class="hamburger__link">Projects</a></li>
+            <li class="hamburger__item"><a href="#contact" class="hamburger__link">Contact</a></li>
+          </ul>
+        </nav>
+      </menu>
+
+        
       </nav>
       <div class="hero">
         <div class="hero__text">
