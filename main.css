@@ -278,7 +278,7 @@ span {
   transition: all 0.2s;
 }
 
-.menu.active {
+.menu {
   display: none;
 }
 
@@ -354,7 +354,7 @@ span {
   .navbar__item {
     display: none;
   }
-  .menu {
+  .menu.active {
     display: block;
   }
 }
