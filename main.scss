@@ -56,7 +56,7 @@ span {
 .header {
   padding: 0;
   min-height: 100vh;
-  max-height: min-content;
+  max-height: max-content;
   background-color: $primary-color;
   position: relative;
   display: flex;
@@ -68,6 +68,7 @@ span {
   padding: 1rem;
   box-shadow: $box-shadow;
   width: 100%;
+  background-color: #184162;
 
   &__list {
     display: flex;
@@ -295,6 +296,15 @@ span {
     line-height: 1.8;
     max-width: 80rem;
     min-width: 20rem;
+
+    &__link {
+      text-decoration: none;
+      color: $header-color;
+
+      &:hover {
+        color: rgba($header-color, 0.7);
+      }
+    }
   }
 }
 .skills {
@@ -540,6 +550,11 @@ span {
 .copyright {
   color: $secondary-color;
   margin-bottom: auto;
+}
+
+#year {
+  color: $secondary-color;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 540px) {

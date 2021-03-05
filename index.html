@@ -13,7 +13,7 @@
     crossorigin="anonymous"
   />
   <body>
-    <section class="header">
+    <section id="header" class="header">
       <nav class="navbar">
         <ul class="navbar__list">
           <li class="navbar__item--logo">
@@ -66,15 +66,13 @@
       <div class="info">
         <h2>About</h2>
         <p class="info__text">
-          Welcome! I am a self-taught web developer and a life long learner! My
-          interest for web development came to fruition during the COVID-19
-          pandemic and I've never stopped since. I am passionate about learning
+          Welcome! I am a front-end web developer and a life long learner! I am passionate about learning
           new technologies, and try to keep myself updated with current trends.
           My other interests include GIS, and creating beautiful visual maps
           (you can view my separate GIS Portfolio
-          <span>here</span>).<br /><br />
+          <a target="_blank" class="info__text__link" href="https://sbedi49.github.io/Portfolio/">here</a>).<br /><br />
           <br />
-          Some of the technologies I have used:
+          Some of my skills include:
         </p>
       </div>
       <div class="skills">
@@ -120,6 +118,12 @@
           src="./img/adobexd.svg"
           alt="adobexd"
         />
+        <img
+        title="SASS"
+        class="skills__img sass"
+        src="./img/sass.svg"
+        alt="sass"
+      />
       </div>
     </section>
     <section id="projects" class="projects">
@@ -146,7 +150,7 @@
               and for each individual state, the app was created with React, and
               uses an API to fetch the data. The map was created with Mapbox.
             </p>
-                <a class="btn__link" href="http://">Github Repo</a>
+                <a target="_blank" class="btn__link" href="https://github.com/sbedi49/COVID-Map">Github Repo</a>
               
           </div>
         </div>
@@ -173,7 +177,7 @@
               flexbox and CSS grids.
             </p>
               
-                <a class="btn__link" href="http://">Github Repo</a>
+                <a target="_blank" class="btn__link" href="https://github.com/sbedi49/fitness-mecca">Github Repo</a>
             
           </div>
         </div>
@@ -192,7 +196,7 @@
               veritatis molestiae.
             </p>
              
-                <a class="btn__link" href="http://">Github Repo</a>
+                <a target="_blank" class="btn__link" href="https://github.com/sbedi49/shoecart">Github Repo</a>
               
           </div>
         </div>
@@ -211,7 +215,7 @@
               veritatis molestiae.
             </p>
               
-                <a class="btn__link" href="http://">Github Repo</a>
+                <a target="_blank" class="btn__link" href="https://github.com/sbedi49/riwaaz-e-rishte">Github Repo</a>
             </div>
           </div>
         </div>
@@ -235,13 +239,13 @@
 
     <section class="footer">
       <div class="socials">
-       <a class="socials__icon"  target="_blank" href="http://github.com"><i class="fab fa-github "></i></a> 
-       <a class="socials__icon"  target="_blank" href="http://linkedin.com"><i class="fab fa-linkedin"></i></a> 
+       <a class="socials__icon"  target="_blank" href="https://github.com/sbedi49"><i class="fab fa-github "></i></a> 
+       <a class="socials__icon"  target="_blank" href="https://www.linkedin.com/in/sarab-bedi-385519195/"><i class="fab fa-linkedin"></i></a> 
       </div>
       <div class="copyright">
-        <p>&copy; All Rights Reserved. Sarab Bedi</p>
+        <p><span id="year"></span> &copy; All Rights Reserved. Sarab Bedi</p>
       </div>
-      <a href="/" class="scroll-to-top">^</a>
+      <a href="#header" class="scroll-to-top">^</a>
     </section>
 
     <script src="index.js"></script>
