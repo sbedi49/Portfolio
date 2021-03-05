@@ -187,6 +187,7 @@ span {
   -webkit-animation: down_arrow 1s ease-in-out 4s infinite;
           animation: down_arrow 1s ease-in-out 4s infinite;
   text-decoration: none;
+  margin-bottom: 2rem;
 }
 
 @-webkit-keyframes down_arrow {
@@ -408,22 +409,23 @@ span {
 
 .skills {
   margin-top: 2rem;
-  display: -ms-grid;
-  display: grid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   grid-gap: 2rem;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
-  place-items: center;
 }
 
 .skills__img {
   height: 6rem;
   width: 6rem;
-}
-
-.skills__img.xd {
-  -ms-grid-column: 2;
-  grid-column: 2;
 }
 
 .projects {

@@ -153,6 +153,7 @@ span {
   right: 50%;
   animation: down_arrow 1s ease-in-out 4s infinite;
   text-decoration: none;
+  margin-bottom: 2rem;
 
   @keyframes down_arrow {
     0% {
@@ -309,18 +310,15 @@ span {
 }
 .skills {
   margin-top: 2rem;
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   grid-gap: 2rem;
-  grid-template-columns: repeat(3, 1fr);
-  place-items: center;
 
   &__img {
     height: 6rem;
     width: 6rem;
-  }
-
-  &__img.xd {
-    grid-column: 2;
   }
 }
 
