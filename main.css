@@ -748,7 +748,7 @@ span {
   position: absolute;
   bottom: 0;
   right: 0;
-  color: white;
+  color: #fdfdfa;
   height: 2rem;
   font-size: 1rem;
   text-decoration: none;
@@ -774,6 +774,7 @@ span {
 .scroll-to-top:hover {
   -webkit-transform: translateY(-3px);
           transform: translateY(-3px);
-  background-color: rgba(232, 84, 141, 0.9);
+  background-color: #fdfdfa;
+  color: #e8548d;
 }
 /*# sourceMappingURL=main.css.map */

@@ -570,7 +570,7 @@ span {
   position: absolute;
   bottom: 0;
   right: 0;
-  color: white;
+  color: $secondary-color;
   height: 2rem;
   font-size: 1rem;
   text-decoration: none;
@@ -586,6 +586,7 @@ span {
 
   &:hover {
     transform: translateY(-3px);
-    background-color: rgba($header-color, 0.9);
+    background-color: $secondary-color;
+    color: $header-color;
   }
 }
