@@ -33,7 +33,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  opacity: .85;
+  opacity: 0.85;
 }
 .navbar-collapse {
   -webkit-border-radius: 0;
@@ -71,7 +71,6 @@ body {
 .navbar-default .navbar-nav > li > a:focus {
   color: whitesmoke;
   background-color: rgba(16, 25, 156, 0.705);
-  
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
@@ -223,9 +222,9 @@ a:hover {
 
 **********************************************************************/
 #head {
-  background-image:url(../images/space-cover.jpg);
+  background-image: url(../assets/images/space-cover.jpg);
   background-size: cover;
-  color: #7C7C7C;
+  color: #7c7c7c;
   padding: 30px 0 35px 0;
 }
 #head img.img-circle {
@@ -258,7 +257,7 @@ a:hover {
   font-weight: normal;
 }
 #head .tagline a {
-  color: #5E5E5E;
+  color: #5e5e5e;
 }
 .home #head {
   padding: 90px 0;
@@ -288,7 +287,7 @@ img {
 }
 
 .about-img {
-  box-shadow: 0 3rem 6rem rgba(black,.1);
+  box-shadow: 0 3rem 6rem rgba(black, 0.1);
   border-radius: 8px;
   transition: all 0.2s;
 }
@@ -324,7 +323,7 @@ img {
 }
 .btn-primary {
   color: #fff;
-  background-color:rgba(16, 25, 156, 0.705);
+  background-color: rgba(16, 25, 156, 0.705);
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -336,7 +335,7 @@ img {
 }
 .btn-action {
   font-weight: bold;
-  background: transparent!important;
+  background: transparent !important;
   border: 1px solid #333;
   text-shadow: none;
 }
@@ -357,7 +356,7 @@ img {
   outline: none;
 }
 
-.btn-lg:hover{
+.btn-lg:hover {
   background-color: rgba(16, 25, 156, 0.705);
 }
 
@@ -548,7 +547,7 @@ img {
   content: "";
   position: absolute;
   height: 4px;
-  top: .53em;
+  top: 0.53em;
   width: 400%;
   border-bottom: 1px solid #ccc;
   border-top: 1px solid #ccc;
@@ -624,11 +623,11 @@ img {
   outline: 0;
   text-decoration: none;
   line-height: 2.4rem;
-  font-size: .875rem;
+  font-size: 0.875rem;
 }
 .next:hover,
 .prev:hover {
-  background-color: rgba(16, 25, 156, 0.705)
+  background-color: rgba(16, 25, 156, 0.705);
 }
 
 /*********************************************************************
