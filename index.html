@@ -20,7 +20,9 @@
             <a href="/" class="navbar__logo">SB</a>
           </li>
           <li class="navbar__item">
-            <a target="_blank" href="./assets/Resume.pdf" class="navbar__link">Resume</a>
+            <a target="_blank" href="./assets/Resume.pdf" class="navbar__link"
+              >Resume</a
+            >
           </li>
           <li class="navbar__item">
             <a href="#about" class="navbar__link">About</a>
@@ -41,21 +43,32 @@
         </div>
         <menu id="active" class="menu">
           <nav class="hamburger">
-          <ul class="hamburger__list">
-            <li class="hamburger__item"><a target="_blank" href="./assets/Resume.pdf" class="hamburger__link">Resume</a></li>
-            <li class="hamburger__item"><a href="#about" class="hamburger__link">About</a></li>
-            <li class="hamburger__item"><a href="#projects" class="hamburger__link">Projects</a></li>
-            <li class="hamburger__item"><a href="#contact" class="hamburger__link">Contact</a></li>
-          </ul>
-        </nav>
-      </menu>
-
-        
+            <ul class="hamburger__list">
+              <li class="hamburger__item">
+                <a
+                  target="_blank"
+                  href="./assets/Resume.pdf"
+                  class="hamburger__link"
+                  >Resume</a
+                >
+              </li>
+              <li class="hamburger__item">
+                <a href="#about" class="hamburger__link">About</a>
+              </li>
+              <li class="hamburger__item">
+                <a href="#projects" class="hamburger__link">Projects</a>
+              </li>
+              <li class="hamburger__item">
+                <a href="#contact" class="hamburger__link">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </menu>
       </nav>
       <div class="hero">
         <div class="hero__text">
-          <h1 class="hero__text"> Hello, </h1>
-          <h1 class="hero__text">I'm <span>Sarab</span> </h1>
+          <h1 class="hero__text">Hello,</h1>
+          <h1 class="hero__text">I'm <span>Sarab</span></h1>
         </div>
         <img src="./img/hero-img.svg" alt="hero-svg" class="hero__svg" />
       </div>
@@ -66,11 +79,16 @@
       <div class="info">
         <h2>About</h2>
         <p class="info__text">
-          Welcome! I am a front-end web developer and a life long learner! I am passionate about learning
-          new technologies, and try to keep myself updated with current trends.
-          My other interests include GIS, and creating beautiful visual maps
-          (you can view my separate GIS Portfolio
-          <a target="_blank" class="info__text__link" href="https://sbedi49.github.io/Portfolio/">here</a>).<br /><br />
+          Welcome! I am a front-end web developer and a life long learner! I am
+          passionate about learning new technologies, and try to keep myself
+          updated with current trends. My other interests include GIS, and
+          creating beautiful visual maps (you can view my separate GIS Portfolio
+          <a
+            target="_blank"
+            class="info__text__link"
+            href="https://sbedi49.github.io/GIS-Portfolio/"
+            >here</a
+          >).<br /><br />
           <br />
           Some of my skills include:
         </p>
@@ -119,11 +137,11 @@
           alt="adobexd"
         />
         <img
-        title="SASS"
-        class="skills__img sass"
-        src="./img/sass.svg"
-        alt="sass"
-      />
+          title="SASS"
+          class="skills__img sass"
+          src="./img/sass.svg"
+          alt="sass"
+        />
       </div>
     </section>
     <section id="projects" class="projects">
@@ -150,8 +168,12 @@
               and for each individual state, the app was created with React, and
               uses an API to fetch the data. The map was created with Mapbox.
             </p>
-                <a target="_blank" class="btn__link" href="https://github.com/sbedi49/COVID-Map">Github Repo</a>
-              
+            <a
+              target="_blank"
+              class="btn__link"
+              href="https://github.com/sbedi49/COVID-Map"
+              >Github Repo</a
+            >
           </div>
         </div>
         <div class="work__box">
@@ -176,71 +198,59 @@
               practice my design skills with modern CSS techniques such as
               flexbox and CSS grids.
             </p>
-              
-                <a target="_blank" class="btn__link" href="https://github.com/sbedi49/fitness-mecca">Github Repo</a>
-            
-          </div>
-        </div>
-        <div class="work__box">
-          <img src="" alt="" class="work__img" />
-          <div class="overlay">
-            <a target="_blank" class="overlay__link" href="http://google.com"
-              ><i class="fas fa-search"></i>
-            </a>
-          </div>
-          <div class="work__info">
-            <h3>E-commerce</h3>
-            <p class="work__info__text">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa
-              veniam minima optio tenetur ad, voluptas expedita ab temporibus
-              veritatis molestiae.
-            </p>
-             
-                <a target="_blank" class="btn__link" href="https://github.com/sbedi49/shoecart">Github Repo</a>
-              
-          </div>
-        </div>
-        <div class="work__box">
-          <img src="" alt="" class="work__img" />
-          <div class="overlay">
-            <a target="_blank" class="overlay__link" href=""
-              ><i class="fas fa-search"></i>
-            </a>
-          </div>
-          <div class="work__info">
-            <h3>E-commerce</h3>
-            <p class="work__info__text">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa
-              veniam minima optio tenetur ad, voluptas expedita ab temporibus
-              veritatis molestiae.
-            </p>
-              
-                <a target="_blank" class="btn__link" href="https://github.com/sbedi49/riwaaz-e-rishte">Github Repo</a>
-            </div>
+
+            <a
+              target="_blank"
+              class="btn__link"
+              href="https://github.com/sbedi49/fitness-mecca"
+              >Github Repo</a
+            >
           </div>
         </div>
       </div>
     </section>
 
     <section id="contact" class="contact">
-      
       <div class="wrapper">
         <h2 class="form-header">Get in Touch.</h2>
         <form class="form" data-netlify="true" action="POST">
-          <input name="name" autocomplete="off" class="form__input" placeholder="Your Name..." id="name" type="text">
+          <input
+            name="name"
+            autocomplete="off"
+            class="form__input"
+            placeholder="Your Name..."
+            id="name"
+            type="text"
+          />
           <div class="form__message">
-            <textarea name="message" class="form__message__textarea" placeholder="Your Message..." id="message" cols="50" rows="10"></textarea>
+            <textarea
+              name="message"
+              class="form__message__textarea"
+              placeholder="Your Message..."
+              id="message"
+              cols="50"
+              rows="10"
+            ></textarea>
           </div>
-        <button type="submit" class="form__btn">Send</button>
-      </form>
-    </div>
-      
+          <button type="submit" class="form__btn">Send</button>
+        </form>
+      </div>
     </section>
 
     <section class="footer">
       <div class="socials">
-       <a class="socials__icon"  target="_blank" href="https://github.com/sbedi49"><i class="fab fa-github "></i></a> 
-       <a class="socials__icon"  target="_blank" href="https://www.linkedin.com/in/sarab-bedi-385519195/"><i class="fab fa-linkedin"></i></a> 
+        <a
+          class="socials__icon"
+          target="_blank"
+          href="https://github.com/sbedi49"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a
+          class="socials__icon"
+          target="_blank"
+          href="https://www.linkedin.com/in/sarab-bedi-385519195/"
+          ><i class="fab fa-linkedin"></i
+        ></a>
       </div>
       <div class="copyright">
         <p><span id="year"></span> &copy; All Rights Reserved. Sarab Bedi</p>
